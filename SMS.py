@@ -1,11 +1,11 @@
 import requests, random, datetime, sys, time, argparse, os, colorama
 os.system("clear")
 banner = """\033[36m
-อยู่เฉยๆอย่าดิ้น  
-  BY:SCK SpamerSMS
+แจกฟรีอย่าไปขายไอสัส !  
+  By : [CodeNameX]
 """
 print(banner)
-_phone = input('\033[36m(66ตามด้วยเบอร์)>>\033[0m \033[35m ')
+_phone = input('\033[36m(66ตามด้วยเบอร์เหยื่อ)>>\033[0m \033[35m ')
 
 if _phone[0] == '+':
 	_phone = _phone[1:]
@@ -24,7 +24,7 @@ _phone9 = _phone[1:]
 _phone9dostavista = _phone9[:3]+'+'+_phone9[3:6]+'-'+_phone9[6:8]+'-'+_phone9[8:10]
 
 iteration = 0
-print('กำลังทำงาน! \033[32m ')
+print('กำลังทำงาน!!! \033[32m ')
 print(' ')
 while True:
 	_email = _name+f'{iteration}'+'@gmail.com'
