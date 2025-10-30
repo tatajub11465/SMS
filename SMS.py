@@ -6,7 +6,7 @@ banner = """\033[36m
 """
 print(banner)
 _phone = input('\033[36m(66ตามด้วยเบอร์)>>\033[0m \033[35m ')
-
+0931625121
 if _phone[0] == '+':
 	_phone = _phone[1:]
 if _phone[0] == '8':
@@ -217,4 +217,5 @@ while True:
 	try:
 		iteration += 1
 	except:
+
 		break
